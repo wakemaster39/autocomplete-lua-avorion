@@ -1,0 +1,41 @@
+{
+  "name": "lua-autocomplete-avorion",
+  "version": "0.1.0",
+  "description": "Autocomplete and more for Avorion",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wakemaster39/autocomplete-lua-avorion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wakemaster39/autocomplete-lua-avorion/issues"
+  },
+  "main": "lib/index.js",
+  "providedServices": {
+    "autocomplete-lua.options-provider": {
+      "versions": {
+        "1.0.0": "getOptionProvider"
+      }
+    }
+  },
+  "author": "wakemaster39",
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  },
+  "package-deps": [
+    "autocomplete-lua",
+    "language-lua"
+  ],
+  "devDependencies": {
+    "@types/mocha": "^2.2.39",
+    "chai": "*",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "typescript": "^2.1.5"
+  },
+  "scripts": {
+    "test": "mocha --opts mocha.opts",
+    "test:auto": "mocha --opts mocha.opts --watch"
+  }
+}
