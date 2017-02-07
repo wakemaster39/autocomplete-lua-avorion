@@ -1,4 +1,4 @@
-declare var window: any;
+
 
 import DefaultProvider from "./provider"
 

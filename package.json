@@ -27,11 +27,17 @@
     "language-lua"
   ],
   "devDependencies": {
+    "@types/atom": "0.0.36",
     "@types/mocha": "^2.2.39",
-    "chai": "*",
-    "mocha": "^3.2.0"
+    "@types/node": "^7.0.5",
+    "@types/sinon": "^1.16.34",
+    "mocha": "^3.2.0",
+    "mock-fs": "^4.0.0",
+    "sinon": "^1.17.7",
+    "typemoq": "^1.1.0"
   },
   "dependencies": {
+    "@types/node": "^7.0.5",
     "typescript": "^2.1.5"
   },
   "scripts": {
