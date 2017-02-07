@@ -10,7 +10,7 @@ interface Utils{
   reviveOptions(options: Object)
   mergeOptions(previousOptions: Object, newOptions: Object)
   mergeOptionsCache(previousOptions: Object, newOptions: Object, cache: Object)
-  
+
 }
 
 export default class DefaultProvider implements Provider{
